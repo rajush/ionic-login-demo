@@ -8,9 +8,9 @@
         .factory("AuthenticationService", AuthenticationService)
         .factory("Base64", Base64);
 
-    AuthenticationService.$inject = ["Base64", "$http", "$cookies", "$rootScope", "$state", "$log", "$timeout"];
+    AuthenticationService.$inject = ["Base64", "$http", "$cookieStore", "$rootScope", "$state", "$log", "$timeout"];
 
-    function AuthenticationService(Base64, $http, $cookies, $rootScope, $state, $log, $timeout) {
+    function AuthenticationService(Base64, $http, $cookieStore, $rootScope, $state, $log, $timeout) {
         var service = {
             login: login,
             setCredentials: setCredentials
@@ -30,75 +30,56 @@
             } else {
                 /* Dummy authentication for testing, uses $timeout to simulate api cal
                  ----------------------------------------------*/
-                // $timeout(function() {
-                //     if (angular.isDefined(username) && angular.isDefined(password) && !response.success) {
-                //         response.message = 'Username or password is incorrect.';
-                //         toastr.error(response.message);
-                //     }
-                // }, 1000);
+                $timeout(function() {
+                    httpCall()
+                }, 1000);
 
-                /* Use this for real authentication
-                -------------------------------------------*/
-                // var req = {
-                //     method: "POST",
-                //     url: url + "AuthenticateUser",
-                //     data: {
-                //         "userId": username,
-                //         "password": password
-                //     },
-                //     headers: {
-                //         "Content-Type": "application/json; charset=utf-8"
-                //     }
-                // };
-                //
-                // $http("user.json").success(function(response) {
-                //     $log.log(response);
-                //     // callback(response);
-                // }).error(function(data, status) {
-                //     callback(response);
-                // });
+                function httpCall(){
+                    var req = {
+                        method: "GET",
+                        url: "app/authentication/users.json"
+                    };
 
-                var req = {
-                    method: "GET",
-                    url: "app/authentication/users.json"
-                };
-
-                $http(req).success(function(response) {
-                    var totalUsers = response.users.length;
-                    for (var i = 0; i < totalUsers; i++) {
-                        if (angular.equals(response.users[i].username, username) && angular.equals(response.users[i].password, password)) {
-                            var authorizedUser = response.users[i];
-                            toastr.options.positionClass = "toast-bottom-right";
-                            toastr.success("Successfully logged in.");
-                            break;
+                    $http(req).success(function(response) {
+                        var totalUsers = response.users.length;
+                        for (var i = 0; i < totalUsers; i++) {
+                            if (angular.equals(response.users[i].username, username) && angular.equals(response.users[i].password, password)) {
+                                var authorizedUser = response.users[i];
+                                toastr.options.positionClass = "toast-bottom-right";
+                                toastr.success("Successfully logged in.");
+                                break;
+                            }
                         }
-                    }
-                    if (!authorizedUser) {
-                        response.message = 'Invalid username or password.';
+                        if (!authorizedUser) {
+                            response.message = 'Invalid username or password.';
+                            toastr.options.positionClass = "toast-middle-center";
+                            toastr.error(response.message);
+                        }
+                        callback(authorizedUser);
+                    }).error(function(data, status) {
+                        response.message = 'Error authenticating user.';
                         toastr.options.positionClass = "toast-middle-center";
                         toastr.error(response.message);
-                    }
-                    callback(authorizedUser);
-                }).error(function(data, status) {
-                    response.message = 'Error authenticating user.';
-                    toastr.options.positionClass = "toast-middle-center";
-                    toastr.error(response.message);
-                });
+                    });
+                }
             }
         }
 
-        function setCredentials(username, password) {
+        function setCredentials(username, password, userData) {
             var authdata = Base64.encode(username + ':' + password);
+            var userpassword = Base64.encode( password );
 
             $rootScope.globals = {
                 currentUser: {
                     username: username,
-                    authdata: authdata
+                    userpassword: userpassword,
+                    userRole: userData.role,
+                    userId: userData.roleId
                 }
             };
 
             $http.defaults.headers.common['Authorization'] = 'Basic ' + authdata; // jshint ignore:line
-            $cookies.put('globals', $rootScope.globals);
+            $cookieStore.put('globals', $rootScope.globals);
         }
 
     }

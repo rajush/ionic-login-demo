@@ -20,7 +20,6 @@
         vm.login = login;
 
         $scope.$on("$ionicView.enter", function(e) {
-            console.log("login page");
             // loading asynchronous modal. Using promise and then calling it
             $ionicModal.fromTemplateUrl("app/authentication/login.html", {
                 scope: $scope,
@@ -48,10 +47,11 @@
         });
 
         function login() {
-            console.log(vm.username);
             return AuthenticationService.login(vm.username, vm.password, function(response) {
                 console.log("logged in user: ", response);
                 if (response) {
+                    var userData = response;
+                    AuthenticationService.setCredentials( vm.username, vm.password, userData );
                     $scope.modal.hide();
                     $state.go("app.home");
                     vm.username = undefined;
