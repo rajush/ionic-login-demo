@@ -1,0 +1,11 @@
+{
+  "name": "StarterIonic",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.0.0"
+  },
+  "dependencies": {
+    "toastr": "~2.1.1",
+    "angular-cookies": "1.2.13"
+  }
+}

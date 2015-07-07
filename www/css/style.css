@@ -1,0 +1,54 @@
+/* Empty. Add your own CSS if you like */
+
+/* Login Modal
+============================================================================= */
+.modal-backdrop-bg {
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+  background-color: #000;
+  opacity: 0;
+}
+
+.modal-backdrop {
+    background: url(../img/background.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.slide-in-up {
+  -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.slide-in-up.ng-enter, .slide-in-up > .ng-enter {
+  -webkit-transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 1.5s;
+  transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 1.5s;
+ }
+
+.slide-in-up.ng-enter-active, .slide-in-up > .ng-enter-active {
+  -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.slide-in-up.ng-leave, .slide-in-up > .ng-leave {
+  -webkit-transition: all ease-in-out 1.5s;
+  transition: all ease-in-out 1.5s;
+ }
+ /* Login Modal
+ ============================================================================= */
+
+@media (min-width: 767px) {
+  /*.menu-content {
+    -webkit-transform: translate3d(270px, 0px, 0px) !important;
+    width: calc(100% - 270px) !important;
+  } */
+
+  .bar-header button.ion-navicon {
+    display: none;
+  }
+}
+.ion-log-out{
+    font-size: 10px;
+}

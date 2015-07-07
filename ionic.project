@@ -1,0 +1,8 @@
+{
+  "name": "login",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "index",
+    "watch"
+  ]
+}
