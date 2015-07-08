@@ -13,7 +13,8 @@
     function AuthenticationService(Base64, $http, $cookieStore, $rootScope, $state, $log, $timeout) {
         var service = {
             login: login,
-            setCredentials: setCredentials
+            setCredentials: setCredentials,
+            clearCredentials: clearCredentials
         }
 
         return service;
@@ -28,7 +29,7 @@
                 response.message = 'Username and password are requied.';
                 toastr.warning(response.message);
             } else {
-                /* Dummy authentication for testing, uses $timeout to simulate api cal
+                /* Dummy authentication for testing, uses $timeout to simulate api call
                  ----------------------------------------------*/
                 $timeout(function() {
                     httpCall()
@@ -55,6 +56,7 @@
                             toastr.options.positionClass = "toast-middle-center";
                             toastr.error(response.message);
                         }
+                        //send callback if authorized user
                         callback(authorizedUser);
                     }).error(function(data, status) {
                         response.message = 'Error authenticating user.';
@@ -80,6 +82,11 @@
 
             $http.defaults.headers.common['Authorization'] = 'Basic ' + authdata; // jshint ignore:line
             $cookieStore.put('globals', $rootScope.globals);
+        }
+
+        function clearCredentials(){
+            $rootScope.globals = {};
+            $cookieStore.remove("globals");
         }
 
     }

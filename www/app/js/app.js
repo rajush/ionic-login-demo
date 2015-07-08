@@ -10,7 +10,9 @@ angular
     .config(config)
     .run(run);
 
-function run($ionicPlatform) {
+run.$inject = ["$rootScope", "$ionicPlatform", "$cookieStore", "$location", "$http", "$state"];
+
+function run($rootScope, $ionicPlatform, $cookieStore, $location, $http, $state) {
     $ionicPlatform.ready(function() {
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
         // for form inputs)
@@ -22,6 +24,30 @@ function run($ionicPlatform) {
             StatusBar.styleDefault();
         }
     });
+
+    // keep user logged in after page refresh
+    $rootScope.globals = $cookieStore.get("globals") || {};
+    if ($rootScope.globals.currentUser) {
+        $http.defaults.headers.common["Authentication"] = "Basic" + $rootScope.globals.currentUser.authdata; // jshint ignore:line
+    }
+
+    $rootScope.$on("locationChangeStart", function(event, next, current) {
+        // redirect to login page if not logged in
+        if ($location.path() !== "/login" && !$rootScope.globals.currentUser) {
+            $location.path("/login");
+        }
+    });
+
+    $rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState, fromParams) {
+        // anywhere other than login and is logged in
+        if (toState.name != "login" && $rootScope.globals.currentUser) {
+            console.log(toState.url);
+            // user role access control
+            if (toState.url === "/") {
+                event.preventDefault();
+            }
+        }
+    })
 }
 
 function config($stateProvider, $urlRouterProvider) {
