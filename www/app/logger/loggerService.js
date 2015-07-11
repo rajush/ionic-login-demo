@@ -3,8 +3,11 @@
  * @namespace Factories
  */
 (function() {
+
+    "use strict";
+
     angular
-        .module("starter")
+        .module("Logger", [])
         .factory("logger", logger);
 
     /**
@@ -18,7 +21,7 @@
         };
         return service;
 
-        ////////////
+        /* ======================================================================= */
 
         /**
          * @name logError

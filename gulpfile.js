@@ -15,6 +15,7 @@ var paths = {
     javascript: [
         './www/**/*.js',
         '!./www/app/js/app.js',
+        '!./www/app/authentication/authenticationService.js',
         '!./www/lib/**'
     ],
     css: [

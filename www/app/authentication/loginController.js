@@ -1,3 +1,4 @@
+/*eslint-disable */
 (function() {
 
     "use strict";
@@ -30,6 +31,9 @@
             }).then(function(modal) {
                 $scope.modal = modal;
                 $scope.modal.show();
+
+                // Reset login status
+                AuthenticationService.clearCredentials();
             });
         });
 
@@ -46,16 +50,23 @@
             // Execute action
         });
 
+        /* ========================================================================================================== */
+
         function login() {
-            return AuthenticationService.login(vm.username, vm.password, function(response) {
-                console.log("logged in user: ", response);
-                if (response) {
-                    var userData = response;
-                    AuthenticationService.setCredentials( vm.username, vm.password, userData );
+            vm.loading = true;
+            return AuthenticationService.login(vm.username, vm.password, function(callback) {
+                // On successful login
+                if (callback.success) {
+                    var userData = callback.success;
+                    console.log(userData);
+                    AuthenticationService.setCredentials(vm.username, vm.password, userData);
                     $scope.modal.hide();
                     $state.go("app.home");
                     vm.username = undefined;
                     vm.password = undefined;
+                    vm.loading = false;
+                } else {
+                    vm.loading = false;
                 }
             });
         }

@@ -19,15 +19,15 @@
 
         return service;
 
+        /* ========================================================================================================== */
+
         function login(username, password, callback) {
-            var response = {
-                success: username === 'admin' && password === 'admin'
-            };
+            var response = {};
 
             if (angular.isUndefined(username) && angular.isUndefined(password) || (username === "" || password === "")) {
                 toastr.options.positionClass = "toast-middle-center";
-                response.message = 'Username and password are requied.';
-                toastr.warning(response.message);
+                toastr.warning('Username and password are requied.');
+                callback(response);
             } else {
                 /* Dummy authentication for testing, uses $timeout to simulate api call
                  ----------------------------------------------*/
@@ -35,29 +35,30 @@
                     httpCall()
                 }, 1000);
 
-                function httpCall(){
+                function httpCall() {
                     var req = {
                         method: "GET",
-                        url: "app/authentication/users.json"
+                        url: "app/authentication/users.json" // Dummy user list to authenticate the user credentials
                     };
 
-                    $http(req).success(function(response) {
-                        var totalUsers = response.users.length;
+                    $http(req).success(function(data) {
+                        var totalUsers = data.users.length;
                         for (var i = 0; i < totalUsers; i++) {
-                            if (angular.equals(response.users[i].username, username) && angular.equals(response.users[i].password, password)) {
-                                var authorizedUser = response.users[i];
+                            if (angular.equals(data.users[i].username, username) && angular.equals(data.users[i].password, password)) {
+                                var authorizedUser = data.users[i];
+
+                                // Send success callback if authorized user
+                                response.success = authorizedUser;
                                 toastr.options.positionClass = "toast-bottom-right";
                                 toastr.success("Successfully logged in.");
                                 break;
                             }
                         }
                         if (!authorizedUser) {
-                            response.message = 'Invalid username or password.';
                             toastr.options.positionClass = "toast-middle-center";
-                            toastr.error(response.message);
+                            toastr.error('Invalid username or password.');
                         }
-                        //send callback if authorized user
-                        callback(authorizedUser);
+                        callback(response);
                     }).error(function(data, status) {
                         response.message = 'Error authenticating user.';
                         toastr.options.positionClass = "toast-middle-center";
@@ -69,14 +70,14 @@
 
         function setCredentials(username, password, userData) {
             var authdata = Base64.encode(username + ':' + password);
-            var userpassword = Base64.encode( password );
+            var userpassword = Base64.encode(password);
 
             $rootScope.globals = {
                 currentUser: {
                     username: username,
                     userpassword: userpassword,
                     userRole: userData.role,
-                    userId: userData.roleId
+                    roleId: userData.roleId
                 }
             };
 
@@ -84,7 +85,7 @@
             $cookieStore.put('globals', $rootScope.globals);
         }
 
-        function clearCredentials(){
+        function clearCredentials() {
             $rootScope.globals = {};
             $cookieStore.remove("globals");
         }

@@ -7,12 +7,14 @@
                 <button menu-toggle="left" class="button button-icon button-clear ion-navicon"></button>
             </ion-nav-buttons>
             <ion-nav-buttons side="right">
-                <button class="button button-clear ion-log-out" ng-click="logout()"> Logout</button>
+                <button class="button button-clear ion-person"> {{vm.user | uppercase}}</button>
             </ion-nav-buttons>
         </ion-nav-bar>
+        <!-- Center content -->
         <ion-nav-view name="menuContent"></ion-nav-view>
     </ion-side-menu-content>
 
+    <!-- Left menu -->
     <ion-side-menu side="left" expose-aside-when="large">
         <ion-header-bar class="bar-dark">
             <h1 class="title">Menu</h1>
@@ -27,6 +29,9 @@
                 </ion-item>
                 <ion-item menu-close href="#/app/playlists">
                     Admin
+                </ion-item>
+                <ion-item ui-sref="login">
+                    Logout
                 </ion-item>
             </ion-list>
         </ion-content>

@@ -1,4 +1,4 @@
-    <ion-modal-view>
+    <ion-modal-view view-title="Login">
       <ion-header-bar>
         <h1 class="title">Login</h1>
         <div class="buttons">
@@ -16,8 +16,9 @@
               <span class="input-label">Password</span>
               <input type="password" ng-model="vm.password">
             </label>
-            <label class="item">
-              <button class="button button-block button-positive" type="submit">Log in</button>
+            <label class="item text-center">
+                <ion-spinner icon="android" ng-if="vm.loading"></ion-spinner>
+              <button class="button button-block button-positive" type="submit" ng-if="!vm.loading">Log in</button>
             </label>
           </div>
         </form>

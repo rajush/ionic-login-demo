@@ -14,9 +14,9 @@
         },
         {
             "roleId": 3,
-            "role": "regular",
-            "username": "regular",
-            "password": "regular"
+            "role": "user",
+            "username": "user",
+            "password": "user"
         }
 
     ]

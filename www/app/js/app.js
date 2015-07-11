@@ -10,9 +10,9 @@ angular
     .config(config)
     .run(run);
 
-run.$inject = ["$rootScope", "$ionicPlatform", "$cookieStore", "$location", "$http", "$state"];
+run.$inject = ["$rootScope", "$ionicPlatform", "$cookieStore", "$location", "$http", "$state", "AccessHandlerService"];
 
-function run($rootScope, $ionicPlatform, $cookieStore, $location, $http, $state) {
+function run($rootScope, $ionicPlatform, $cookieStore, $location, $http, $state, AccessHandlerService) {
     $ionicPlatform.ready(function() {
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
         // for form inputs)
@@ -31,23 +31,27 @@ function run($rootScope, $ionicPlatform, $cookieStore, $location, $http, $state)
         $http.defaults.headers.common["Authentication"] = "Basic" + $rootScope.globals.currentUser.authdata; // jshint ignore:line
     }
 
-    $rootScope.$on("locationChangeStart", function(event, next, current) {
-        // redirect to login page if not logged in
-        if ($location.path() !== "/login" && !$rootScope.globals.currentUser) {
-            $location.path("/login");
-        }
-    });
-
     $rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState, fromParams) {
+        // redirect to login page if not logged in
+        if (toState.name !== "login" && !$rootScope.globals.currentUser) {
+            console.info("User not logged in");
+            event.preventDefault();
+            $state.go("login");
+        }
         // anywhere other than login and is logged in
         if (toState.name != "login" && $rootScope.globals.currentUser) {
             console.log(toState.url);
             // user role access control
-            if (toState.url === "/") {
-                event.preventDefault();
+            var currentUser = $rootScope.globals.currentUser;
+            var isValidRole = AccessHandlerService.validateAccess(event, toState, currentUser);
+            console.log(currentUser.userRole, isValidRole);
+
+            if (fromState.name === "" && isValidRole === false) {
+                console.log("Frorm", fromState);
+                $state.go("login");
             }
         }
-    })
+    });
 }
 
 function config($stateProvider, $urlRouterProvider) {
@@ -55,6 +59,7 @@ function config($stateProvider, $urlRouterProvider) {
 
         .state("login", {
         url: "/login",
+        templateUrl: "app/authentication/main.html",
         controller: "LoginController as vm"
     })
 
@@ -62,7 +67,7 @@ function config($stateProvider, $urlRouterProvider) {
         url: "/app",
         abstract: true,
         templateUrl: "app/templates/menu.html",
-        controller: "AppCtrl"
+        controller: "MenuController as vm"
     })
 
     .state("app.home", {
@@ -85,7 +90,7 @@ function config($stateProvider, $urlRouterProvider) {
             }
         },
         data: {
-            roles: [1, 2, 3]
+            roles: [1, 2]
         }
     })
 
@@ -94,7 +99,7 @@ function config($stateProvider, $urlRouterProvider) {
         views: {
             "menuContent": {
                 templateUrl: "app/templates/playlists.html",
-                controller: "PlaylistsCtrl"
+                controller: "PlaylistsController"
             }
         },
         data: {
@@ -107,8 +112,11 @@ function config($stateProvider, $urlRouterProvider) {
         views: {
             "menuContent": {
                 templateUrl: "app/templates/playlist.html",
-                controller: "PlaylistCtrl"
+                controller: "PlaylistController"
             }
+        },
+        data: {
+            roles: [1]
         }
     });
     // if none of the above states are matched, use this as the fallback
