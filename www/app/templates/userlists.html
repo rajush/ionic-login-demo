@@ -1,0 +1,12 @@
+<ion-view view-title="Admin">
+  <ion-content>
+      <div class="item item-divider">
+          User Lists
+      </div>
+    <ion-list>
+      <ion-item class="item-avatar" ng-repeat="user in userlists" href="#/app/userlists/{{user.id}}-{{user.name}}">
+        <img ng-src="img/{{user.name}}.jpg"> <span>{{user.name}}</span>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

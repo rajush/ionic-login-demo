@@ -38,6 +38,14 @@
  }
  /* Login Modal
  ============================================================================= */
+ .modal {
+     top: 20%;
+     right: 15%;
+     bottom: 25%;
+     left: 10%;
+     min-height: 240px;
+     width: 80%;
+ }
 
 @media (min-width: 767px) {
   /*.menu-content {
@@ -49,6 +57,32 @@
     display: none;
   }
 }
-.ion-log-out{
-    font-size: 10px;
+
+.item-avatar span{
+    vertical-align: -webkit-baseline-middle;
 }
+
+/* Logout Dropdown */
+.dropdown{
+    position: relative;
+}
+.dropdown .ion-arrow-down-b{
+    vertical-align:  -webkit-baseline-middle;
+}
+.drop-nav{
+    position: absolute;
+    background-color: #86CFE4;;
+    padding: 10% 24%;
+    margin-top: 5%;
+    border-bottom: 1px solid rgba(255,255,255, .2);
+    display: none;
+}
+.drop-nav li{
+    cursor: pointer;
+    margin: 0% -9% 0% -23%;
+    /*border-bottom: 1px solid rgba(255,255,255, .2);*/
+}
+.dropdown:hover > .drop-nav{
+    display: block;
+}
+/* Logout Dropdown */

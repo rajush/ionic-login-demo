@@ -8,7 +8,7 @@
         .factory("AuthenticationService", AuthenticationService)
         .factory("Base64", Base64);
 
-    AuthenticationService.$inject = ["Base64", "$http", "$cookieStore", "$rootScope", "$state", "$log", "$timeout"];
+    //AuthenticationService.$inject = ["Base64", "$http", "$cookieStore", "$rootScope", "$state", "$log", "$timeout"];
 
     function AuthenticationService(Base64, $http, $cookieStore, $rootScope, $state, $log, $timeout) {
         var service = {
@@ -25,46 +25,48 @@
             var response = {};
 
             if (angular.isUndefined(username) && angular.isUndefined(password) || (username === "" || password === "")) {
-                toastr.options.positionClass = "toast-middle-center";
+                toastr.options.positionClass = "toast-bottom-right";
                 toastr.warning('Username and password are requied.');
                 callback(response);
             } else {
                 /* Dummy authentication for testing, uses $timeout to simulate api call
                  ----------------------------------------------*/
                 $timeout(function() {
-                    httpCall()
-                }, 1000);
-
-                function httpCall() {
                     var req = {
                         method: "GET",
-                        url: "app/authentication/users.json" // Dummy user list to authenticate the user credentials
+                        url: "app/authentication/data/users.json" // Dummy user list to authenticate the user credentials
                     };
 
-                    $http(req).success(function(data) {
-                        var totalUsers = data.users.length;
-                        for (var i = 0; i < totalUsers; i++) {
-                            if (angular.equals(data.users[i].username, username) && angular.equals(data.users[i].password, password)) {
-                                var authorizedUser = data.users[i];
+                    $http(req)
+                        .success(function(data) {
+                            var totalUsers = data.users.length;
+                            for (var i = 0; i < totalUsers; i++) {
+                                if (angular.equals(data.users[i].username, username) && angular.equals(data.users[i].password, password)) {
+                                    var authorizedUser = data.users[i];
 
-                                // Send success callback if authorized user
-                                response.success = authorizedUser;
-                                toastr.options.positionClass = "toast-bottom-right";
-                                toastr.success("Successfully logged in.");
-                                break;
+                                    // Send success callback if authorized user
+                                    response.success = authorizedUser;
+                                    toastr.options.positionClass = "toast-bottom-right";
+                                    toastr.success("Successfully logged in.");
+                                    break;
+                                }
                             }
-                        }
-                        if (!authorizedUser) {
+                            if (!authorizedUser) {
+                                toastr.options.positionClass = "toast-middle-center";
+                                toastr.error('Invalid username or password.');
+                            }
+
+                            callback(response);
+                        })
+                        .error(function(data, status) {
+                            console.log(data, status);
+                            response.message = "Error authenticating user. " + "HTTP Status: " + status;
                             toastr.options.positionClass = "toast-middle-center";
-                            toastr.error('Invalid username or password.');
-                        }
-                        callback(response);
-                    }).error(function(data, status) {
-                        response.message = 'Error authenticating user.';
-                        toastr.options.positionClass = "toast-middle-center";
-                        toastr.error(response.message);
-                    });
-                }
+                            toastr.error(response.message);
+
+                            callback(response);
+                        });
+                }, 2000);
             }
         }
 

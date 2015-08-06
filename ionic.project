@@ -1,6 +1,6 @@
 {
-  "name": "login",
-  "app_id": "",
+  "name": "login-demo",
+  "app_id": "b1031740",
   "gulpStartupTasks": [
     "index",
     "watch"

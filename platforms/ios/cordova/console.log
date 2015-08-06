@@ -1,0 +1,303 @@
+2015-07-12 19:35:10.282 login-demo[2107:4540240] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/1D419557-E999-4192-B335-888F597F99B8/Library/Cookies/Cookies.binarycookies
+2015-07-12 19:35:11.238 login-demo[2107:4540240] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-12 19:35:11.239 login-demo[2107:4540240] Multi-tasking -> Device: YES, App: YES
+2015-07-12 19:35:11.310 login-demo[2107:4540240] Unlimited access to network resources
+2015-07-12 19:35:12.689 login-demo[2107:4540240] [CDVTimer][keyboard] 10.563016ms
+2015-07-12 19:35:12.689 login-demo[2107:4540240] [CDVTimer][TotalPluginStartup] 10.766029ms
+2015-07-12 19:35:14.017 login-demo[2107:4540240] Resetting plugins due to page load.
+2015-07-12 19:35:14.495 login-demo[2107:4540240] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/27E0950D-68F9-4EDD-9FE2-53868A0ACCC3/login-demo.app/www/index.html#/app/playlists
+2015-07-12 19:39:47.804 login-demo[2921:4568841] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/4137FA82-5EBE-4DC2-9918-7AD81DF51237/Library/Cookies/Cookies.binarycookies
+2015-07-12 19:39:48.324 login-demo[2921:4568841] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-12 19:39:48.325 login-demo[2921:4568841] Multi-tasking -> Device: YES, App: YES
+2015-07-12 19:39:48.338 login-demo[2921:4568841] Unlimited access to network resources
+2015-07-12 19:39:48.526 login-demo[2921:4568841] [CDVTimer][keyboard] 0.062048ms
+2015-07-12 19:39:48.527 login-demo[2921:4568841] [CDVTimer][TotalPluginStartup] 35.406053ms
+2015-07-12 19:39:48.864 login-demo[2921:4568841] Resetting plugins due to page load.
+2015-07-12 19:39:49.207 login-demo[2921:4568841] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/D5FCF0B6-C519-425D-A966-52081ECC9219/login-demo.app/www/index.html
+2015-07-12 19:40:47.326 login-demo[3563:4573770] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/C7D84EFE-7FD9-4B1A-AB95-EF8B3FBE616B/Library/Cookies/Cookies.binarycookies
+2015-07-12 19:40:47.449 login-demo[3563:4573770] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-12 19:40:47.449 login-demo[3563:4573770] Multi-tasking -> Device: YES, App: YES
+2015-07-12 19:40:47.471 login-demo[3563:4573770] Unlimited access to network resources
+2015-07-12 19:40:47.561 login-demo[3563:4573770] [CDVTimer][keyboard] 0.075996ms
+2015-07-12 19:40:47.561 login-demo[3563:4573770] [CDVTimer][TotalPluginStartup] 0.271976ms
+2015-07-12 19:40:47.617 login-demo[3563:4573770] Resetting plugins due to page load.
+2015-07-12 19:40:47.884 login-demo[3563:4573770] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/BFE1A09A-4297-48DC-B610-2194EC93C52F/login-demo.app/www/index.html#/app/playlists
+2015-07-14 23:06:54.607 login-demo[16646:5136879] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/4E5586A8-9D40-4BFA-9DAC-6205EA71BF10/Library/Cookies/Cookies.binarycookies
+2015-07-14 23:06:57.135 login-demo[16646:5136879] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 23:06:57.135 login-demo[16646:5136879] Multi-tasking -> Device: YES, App: YES
+2015-07-14 23:06:57.182 login-demo[16646:5136879] Unlimited access to network resources
+2015-07-14 23:06:58.336 login-demo[16646:5136879] [CDVTimer][keyboard] 10.464013ms
+2015-07-14 23:06:58.336 login-demo[16646:5136879] [CDVTimer][TotalPluginStartup] 10.992050ms
+2015-07-14 23:06:59.108 login-demo[16646:5136879] Resetting plugins due to page load.
+2015-07-14 23:06:59.548 login-demo[16646:5136879] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/C16AA83F-6FB7-4575-A657-E9C8569259A4/login-demo.app/www/index.html#/app/playlists
+2015-07-15 22:42:24.324 login-demo[22656:5568302] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/47363F1E-E6D8-4D43-A9BB-1DE60402F538/Library/Cookies/Cookies.binarycookies
+2015-07-15 22:42:25.713 login-demo[22656:5568302] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 22:42:25.713 login-demo[22656:5568302] Multi-tasking -> Device: YES, App: YES
+2015-07-15 22:42:25.756 login-demo[22656:5568302] Unlimited access to network resources
+2015-07-15 22:42:27.006 login-demo[22656:5568302] [CDVTimer][keyboard] 1.657963ms
+2015-07-15 22:42:27.006 login-demo[22656:5568302] [CDVTimer][TotalPluginStartup] 2.211988ms
+2015-07-15 22:42:28.670 login-demo[22656:5568302] Resetting plugins due to page load.
+2015-07-15 22:42:29.492 login-demo[22656:5568302] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/8E6A671F-24A3-4C9D-834B-4E694C56F375/login-demo.app/www/index.html
+2015-07-15 22:52:03.724 login-demo[23696:5621164] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/02E6D2E0-0FE5-453D-BB55-8B454D2F45D5/Library/Cookies/Cookies.binarycookies
+2015-07-15 22:52:04.498 login-demo[23696:5621164] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 22:52:04.499 login-demo[23696:5621164] Multi-tasking -> Device: YES, App: YES
+2015-07-15 22:52:04.508 login-demo[23696:5621164] Unlimited access to network resources
+2015-07-15 22:52:04.634 login-demo[23696:5621164] [CDVTimer][keyboard] 0.064969ms
+2015-07-15 22:52:04.634 login-demo[23696:5621164] [CDVTimer][TotalPluginStartup] 0.263035ms
+2015-07-15 22:52:04.948 login-demo[23696:5621164] Resetting plugins due to page load.
+2015-07-15 22:52:05.424 login-demo[23696:5621164] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/F272BF57-54E2-43EE-821F-966A535B252F/login-demo.app/www/index.html#/login
+2015-07-15 22:55:03.080 login-demo[24432:5634691] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/6D2B70B7-4D1F-4FB6-9284-5DCF0C690C34/Library/Cookies/Cookies.binarycookies
+2015-07-15 22:55:03.742 login-demo[24432:5634691] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 22:55:03.743 login-demo[24432:5634691] Multi-tasking -> Device: YES, App: YES
+2015-07-15 22:55:03.753 login-demo[24432:5634691] Unlimited access to network resources
+2015-07-15 22:55:03.887 login-demo[24432:5634691] [CDVTimer][keyboard] 0.063002ms
+2015-07-15 22:55:03.888 login-demo[24432:5634691] [CDVTimer][TotalPluginStartup] 0.266016ms
+2015-07-15 22:55:04.211 login-demo[24432:5634691] Resetting plugins due to page load.
+2015-07-15 22:55:04.789 login-demo[24432:5634691] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/05AD93E8-C4F5-4BCE-88AC-BAF2655D41F1/login-demo.app/www/index.html
+2015-07-15 22:57:40.918 login-demo[25148:5645731] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/572DBAAC-DDB0-4FB6-806A-951E1699DC7F/Library/Cookies/Cookies.binarycookies
+2015-07-15 22:57:41.641 login-demo[25148:5645731] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 22:57:41.641 login-demo[25148:5645731] Multi-tasking -> Device: YES, App: YES
+2015-07-15 22:57:41.654 login-demo[25148:5645731] Unlimited access to network resources
+2015-07-15 22:57:41.795 login-demo[25148:5645731] [CDVTimer][keyboard] 24.966002ms
+2015-07-15 22:57:41.796 login-demo[25148:5645731] [CDVTimer][TotalPluginStartup] 25.451005ms
+2015-07-15 22:57:42.385 login-demo[25148:5645731] Resetting plugins due to page load.
+2015-07-15 22:57:42.797 login-demo[25148:5645731] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/85DA6566-F9FF-4F83-AA8F-79BDF3653194/login-demo.app/www/index.html
+2015-07-15 23:03:01.432 login-demo[25962:5674100] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/D67D9852-428E-44F8-8A3B-87C8CD433AB2/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:03:02.134 login-demo[25962:5674100] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:03:02.134 login-demo[25962:5674100] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:03:02.148 login-demo[25962:5674100] Unlimited access to network resources
+2015-07-15 23:03:02.282 login-demo[25962:5674100] [CDVTimer][keyboard] 0.063956ms
+2015-07-15 23:03:02.283 login-demo[25962:5674100] [CDVTimer][TotalPluginStartup] 0.266969ms
+2015-07-15 23:03:02.602 login-demo[25962:5674100] Resetting plugins due to page load.
+2015-07-15 23:03:03.069 login-demo[25962:5674100] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/B00B656F-1FCD-4B9D-AD0D-D0B6C551B99B/login-demo.app/www/index.html
+2015-07-15 23:18:43.895 login-demo[27220:5745628] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/49BF611C-DF5B-4FC5-BF61-A2B918F02DB5/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:18:45.186 login-demo[27220:5745628] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:18:45.186 login-demo[27220:5745628] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:18:45.200 login-demo[27220:5745628] Unlimited access to network resources
+2015-07-15 23:18:45.338 login-demo[27220:5745628] [CDVTimer][keyboard] 0.061035ms
+2015-07-15 23:18:45.338 login-demo[27220:5745628] [CDVTimer][TotalPluginStartup] 0.254035ms
+2015-07-15 23:18:45.914 login-demo[27220:5745628] Resetting plugins due to page load.
+2015-07-15 23:18:47.711 login-demo[27220:5745628] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/9EEFC8D9-ED59-4C13-A55A-2911D3B7260D/login-demo.app/www/index.html#/login
+2015-07-15 23:27:01.533 login-demo[28177:5782946] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/05EB90EC-3FA7-4F36-8123-2A52686AAEF4/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:27:02.063 login-demo[28177:5782946] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:27:02.063 login-demo[28177:5782946] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:27:02.074 login-demo[28177:5782946] Unlimited access to network resources
+2015-07-15 23:27:02.173 login-demo[28177:5782946] [CDVTimer][keyboard] 0.061035ms
+2015-07-15 23:27:02.173 login-demo[28177:5782946] [CDVTimer][TotalPluginStartup] 0.249982ms
+2015-07-15 23:27:02.530 login-demo[28177:5782946] Resetting plugins due to page load.
+2015-07-15 23:27:02.871 login-demo[28177:5782946] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/951CE621-0055-4DE7-905C-EEAB8959785E/login-demo.app/www/index.html
+2015-07-15 23:28:17.127 login-demo[28836:5790404] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/A2AE2F57-C096-4497-8DF0-A62C4187D31B/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:28:17.501 login-demo[28836:5790404] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:28:17.502 login-demo[28836:5790404] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:28:17.516 login-demo[28836:5790404] Unlimited access to network resources
+2015-07-15 23:28:17.619 login-demo[28836:5790404] [CDVTimer][keyboard] 0.066996ms
+2015-07-15 23:28:17.619 login-demo[28836:5790404] [CDVTimer][TotalPluginStartup] 0.271976ms
+2015-07-15 23:28:18.068 login-demo[28836:5790404] Resetting plugins due to page load.
+2015-07-15 23:28:18.560 login-demo[28836:5790404] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/706850A8-05BF-42AC-B252-D2470D38CD94/login-demo.app/www/index.html
+2015-07-15 23:30:02.109 login-demo[29519:5800551] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/B6577F88-ADFF-40D6-845A-DEF14C2B335F/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:30:02.299 login-demo[29519:5800551] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:30:02.300 login-demo[29519:5800551] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:30:02.306 login-demo[29519:5800551] Unlimited access to network resources
+2015-07-15 23:30:02.397 login-demo[29519:5800551] [CDVTimer][keyboard] 0.065029ms
+2015-07-15 23:30:02.397 login-demo[29519:5800551] [CDVTimer][TotalPluginStartup] 0.277996ms
+2015-07-15 23:30:02.468 login-demo[29519:5800551] Resetting plugins due to page load.
+2015-07-15 23:30:02.715 login-demo[29519:5800551] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/49F6AD46-E6AC-4A05-9A4F-DA17D5FCADA0/login-demo.app/www/index.html
+2015-07-15 23:44:57.070 login-demo[31400:5871915] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/1EC03A66-4593-4090-B67C-07F29D4DEA03/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:44:57.411 login-demo[31400:5871915] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:44:57.411 login-demo[31400:5871915] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:44:57.424 login-demo[31400:5871915] Unlimited access to network resources
+2015-07-15 23:44:57.517 login-demo[31400:5871915] [CDVTimer][keyboard] 0.064969ms
+2015-07-15 23:44:57.517 login-demo[31400:5871915] [CDVTimer][TotalPluginStartup] 0.257015ms
+2015-07-15 23:44:57.573 login-demo[31400:5871915] Resetting plugins due to page load.
+2015-07-15 23:44:57.889 login-demo[31400:5871915] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/D4DE3F30-64C4-4CB4-9BD1-BA29010D2F94/login-demo.app/www/index.html
+2015-07-15 23:46:20.382 login-demo[32063:5877007] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/6F70442C-3BB6-4F39-8310-123E9729E239/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:46:20.934 login-demo[32063:5877007] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:46:20.934 login-demo[32063:5877007] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:46:20.951 login-demo[32063:5877007] Unlimited access to network resources
+2015-07-15 23:46:21.051 login-demo[32063:5877007] [CDVTimer][keyboard] 0.064015ms
+2015-07-15 23:46:21.051 login-demo[32063:5877007] [CDVTimer][TotalPluginStartup] 0.243962ms
+2015-07-15 23:46:21.404 login-demo[32063:5877007] Resetting plugins due to page load.
+2015-07-15 23:46:21.848 login-demo[32063:5877007] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/1A150497-F359-43C3-88A8-DA7727F84CAB/login-demo.app/www/index.html
+2015-07-15 23:47:23.507 login-demo[32707:5880676] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/4C21CE64-257F-40A2-B09E-FE8ECC576BDF/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:47:24.158 login-demo[32707:5880676] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:47:24.159 login-demo[32707:5880676] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:47:24.182 login-demo[32707:5880676] Unlimited access to network resources
+2015-07-15 23:47:24.287 login-demo[32707:5880676] [CDVTimer][keyboard] 0.061035ms
+2015-07-15 23:47:24.287 login-demo[32707:5880676] [CDVTimer][TotalPluginStartup] 0.247002ms
+2015-07-15 23:47:24.615 login-demo[32707:5880676] Resetting plugins due to page load.
+2015-07-15 23:47:24.998 login-demo[32707:5880676] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/E008BD32-6621-4047-8010-6C14D0449BFE/login-demo.app/www/index.html
+2015-07-15 23:48:32.916 login-demo[33357:5885225] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/8BE9781E-6818-4470-9B23-A8FB03F9FEDD/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:48:33.680 login-demo[33357:5885225] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:48:33.681 login-demo[33357:5885225] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:48:33.694 login-demo[33357:5885225] Unlimited access to network resources
+2015-07-15 23:48:33.795 login-demo[33357:5885225] [CDVTimer][keyboard] 0.063002ms
+2015-07-15 23:48:33.795 login-demo[33357:5885225] [CDVTimer][TotalPluginStartup] 0.250041ms
+2015-07-15 23:48:34.180 login-demo[33357:5885225] Resetting plugins due to page load.
+2015-07-15 23:48:34.529 login-demo[33357:5885225] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/50B54A0B-6C3F-4220-B7D1-29C41D8833D5/login-demo.app/www/index.html
+2015-07-15 23:49:05.328 login-demo[33987:5888450] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/08D6F41F-100A-448B-976E-EB43167782A9/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:49:05.532 login-demo[33987:5888450] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:49:05.532 login-demo[33987:5888450] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:49:05.546 login-demo[33987:5888450] Unlimited access to network resources
+2015-07-15 23:49:05.634 login-demo[33987:5888450] [CDVTimer][keyboard] 0.069022ms
+2015-07-15 23:49:05.634 login-demo[33987:5888450] [CDVTimer][TotalPluginStartup] 0.280023ms
+2015-07-15 23:49:05.697 login-demo[33987:5888450] Resetting plugins due to page load.
+2015-07-15 23:49:05.920 login-demo[33987:5888450] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/2696E4B9-4078-494E-8B15-F0D2C0F0924F/login-demo.app/www/index.html
+2015-07-15 23:49:49.683 login-demo[34620:5890886] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/3F72F178-29B5-41D8-95E5-40E1A64572E3/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:49:49.796 login-demo[34620:5890886] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:49:49.796 login-demo[34620:5890886] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:49:49.808 login-demo[34620:5890886] Unlimited access to network resources
+2015-07-15 23:49:49.894 login-demo[34620:5890886] [CDVTimer][keyboard] 0.064015ms
+2015-07-15 23:49:49.894 login-demo[34620:5890886] [CDVTimer][TotalPluginStartup] 0.250995ms
+2015-07-15 23:49:49.951 login-demo[34620:5890886] Resetting plugins due to page load.
+2015-07-15 23:49:50.235 login-demo[34620:5890886] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/76A60FC8-76C7-4C58-9E7E-0804BF5AA6C6/login-demo.app/www/index.html
+2015-07-15 23:52:12.925 login-demo[35021:5903276] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/0B46BF5F-4CD1-4F4C-BC15-A7EEA1243164/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:52:13.995 login-demo[35021:5903276] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:52:13.996 login-demo[35021:5903276] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:52:14.011 login-demo[35021:5903276] Unlimited access to network resources
+2015-07-15 23:52:14.148 login-demo[35021:5903276] [CDVTimer][keyboard] 0.061989ms
+2015-07-15 23:52:14.149 login-demo[35021:5903276] [CDVTimer][TotalPluginStartup] 0.258029ms
+2015-07-15 23:52:14.717 login-demo[35021:5903276] Resetting plugins due to page load.
+2015-07-15 23:52:15.342 login-demo[35021:5903276] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/8A6D736A-259E-4933-BB13-B3F55B332C77/login-demo.app/www/index.html
+2015-07-15 23:52:45.326 login-demo[35646:5904508] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/7A8BB93A-D349-4E0E-9CE2-70FC251A130E/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:52:46.251 login-demo[35646:5904508] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:52:46.251 login-demo[35646:5904508] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:52:46.308 login-demo[35646:5904508] Unlimited access to network resources
+2015-07-15 23:52:46.430 login-demo[35646:5904508] [CDVTimer][keyboard] 0.097990ms
+2015-07-15 23:52:46.431 login-demo[35646:5904508] [CDVTimer][TotalPluginStartup] 0.378013ms
+2015-07-15 23:52:46.750 login-demo[35646:5904508] Resetting plugins due to page load.
+2015-07-15 23:52:47.104 login-demo[35646:5904508] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/E9D286D0-445C-4C89-B940-1CF785951D10/login-demo.app/www/index.html
+2015-07-15 23:56:26.896 login-demo[36399:5920139] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/773745D1-28E9-4765-97DD-B39EC6C0DDCB/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:56:28.073 login-demo[36399:5920139] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:56:28.074 login-demo[36399:5920139] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:56:28.092 login-demo[36399:5920139] Unlimited access to network resources
+2015-07-15 23:56:28.214 login-demo[36399:5920139] [CDVTimer][keyboard] 0.063002ms
+2015-07-15 23:56:28.215 login-demo[36399:5920139] [CDVTimer][TotalPluginStartup] 0.252008ms
+2015-07-15 23:56:28.575 login-demo[36399:5920139] Resetting plugins due to page load.
+2015-07-15 23:56:29.026 login-demo[36399:5920139] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/AF0BE810-2D6B-424D-A5C6-C2311C675B15/login-demo.app/www/index.html
+2015-07-15 23:59:01.911 login-demo[37186:5933151] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/307A43EC-D8EC-43F8-83A6-4872BDF40E31/Library/Cookies/Cookies.binarycookies
+2015-07-15 23:59:02.046 login-demo[37186:5933151] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 23:59:02.046 login-demo[37186:5933151] Multi-tasking -> Device: YES, App: YES
+2015-07-15 23:59:02.059 login-demo[37186:5933151] Unlimited access to network resources
+2015-07-15 23:59:02.313 login-demo[37186:5933151] [CDVTimer][keyboard] 0.086963ms
+2015-07-15 23:59:02.313 login-demo[37186:5933151] [CDVTimer][TotalPluginStartup] 0.298023ms
+2015-07-15 23:59:02.466 login-demo[37186:5933151] Resetting plugins due to page load.
+2015-07-15 23:59:02.751 login-demo[37186:5933151] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/86787805-38BB-411E-86A5-57D1FD515002/login-demo.app/www/index.html#/app/playlists
+2015-07-16 00:00:20.011 login-demo[37848:5940379] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/5FFADFDD-AC3E-49D3-BB20-8048153DC917/Library/Cookies/Cookies.binarycookies
+2015-07-16 00:00:20.175 login-demo[37848:5940379] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-16 00:00:20.175 login-demo[37848:5940379] Multi-tasking -> Device: YES, App: YES
+2015-07-16 00:00:20.190 login-demo[37848:5940379] Unlimited access to network resources
+2015-07-16 00:00:20.277 login-demo[37848:5940379] [CDVTimer][keyboard] 0.065982ms
+2015-07-16 00:00:20.277 login-demo[37848:5940379] [CDVTimer][TotalPluginStartup] 0.262976ms
+2015-07-16 00:00:20.338 login-demo[37848:5940379] Resetting plugins due to page load.
+2015-07-16 00:00:20.597 login-demo[37848:5940379] Finished load of: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Bundle/Application/C549AFCA-41CA-4CCB-A7FC-F25A1FA549AE/login-demo.app/www/index.html#/login
+2015-07-16 00:01:01.405 login-demo[37848:5941328] Terminating since there is no system app.
+2015-07-20 22:18:31.213 login-demo[2081:96170] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rajush/Library/Developer/CoreSimulator/Devices/70149BA5-6EB5-46CB-8209-FC53247C17DE/data/Containers/Data/Application/EDC9DCAB-8616-4F7E-BF03-328EBA8C50E8/Library/Cookies/Cookies.binarycookies
+2015-07-20 22:18:31.660 login-demo[2081:96170] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-20 22:18:31.660 login-demo[2081:96170] Multi-tasking -> Device: YES, App: YES
+2015-07-20 22:18:31.687 login-demo[2081:96170] Unlimited access to network resources
+2015-07-20 22:18:31.773 login-demo[2081:96170] [CDVTimer][keyboard] 0.069022ms
+2015-07-20 22:18:31.773 login-demo[2081:96170] [CDVTimer][TotalPluginStartup] 0.266016ms
+2015-07-20 22:18:32.046 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:18:32.258 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/
+2015-07-20 22:19:43.883 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:19:43.940 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=203588
+2015-07-20 22:19:46.359 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:19:46.407 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303
+2015-07-20 22:20:02.515 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:20:02.580 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303
+2015-07-20 22:20:24.964 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:20:25.015 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303
+2015-07-20 22:21:00.791 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:21:00.853 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303
+2015-07-20 22:21:30.850 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:21:30.910 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303
+2015-07-20 22:21:48.164 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:21:48.237 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303
+2015-07-20 22:22:30.912 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:22:30.965 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303
+2015-07-20 22:22:53.150 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:22:53.203 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303
+2015-07-20 22:24:04.914 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:24:05.185 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 22:24:16.182 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:24:16.380 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 22:26:08.445 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:26:08.516 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:26:29.065 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:26:29.122 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:27:04.892 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:27:05.006 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:27:57.914 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:27:58.068 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:31:52.524 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:31:52.722 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:32:29.775 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:32:29.994 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:32:56.390 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:32:56.716 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:34:44.496 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:34:44.726 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:35:33.688 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:35:33.896 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:35:50.089 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:35:50.307 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:36:17.763 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:36:18.659 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:38:09.896 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:38:10.134 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:38:40.994 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:38:41.119 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:39:16.615 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:39:16.736 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:40:27.621 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:40:27.811 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:40:34.469 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:40:34.664 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:41:06.574 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:41:06.800 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:46:48.003 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:46:48.146 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:47:35.144 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:47:35.339 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:48:53.075 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:48:53.268 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:48:53.881 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:48:54.077 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:49:10.175 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:49:10.387 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:51:47.053 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:51:47.306 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:52:02.239 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:52:02.494 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:52:20.939 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:52:21.249 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:52:30.480 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:52:30.594 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 22:56:01.044 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 22:56:01.211 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 23:10:08.755 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:10:09.020 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 23:15:59.589 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:15:59.876 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 23:19:10.940 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:19:11.119 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 23:25:15.883 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:25:16.065 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 23:26:04.221 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:26:04.344 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 23:26:21.638 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:26:21.801 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 23:32:22.988 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:32:23.150 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/app/home
+2015-07-20 23:35:28.405 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:35:28.895 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 23:36:42.208 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:36:42.336 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 23:36:54.171 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:36:54.290 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 23:37:01.815 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:37:02.039 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 23:38:12.713 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:38:12.839 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login
+2015-07-20 23:38:30.417 login-demo[2081:96170] Resetting plugins due to page load.
+2015-07-20 23:38:30.631 login-demo[2081:96170] Finished load of: http://192.168.0.102:8100/?restart=629303#/login

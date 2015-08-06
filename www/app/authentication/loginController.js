@@ -4,12 +4,12 @@
     "use strict";
 
     angular
-        .module("Authentication")
+        .module("starter")
         .controller("LoginController", LoginController);
 
-    LoginController.$inject = ["$scope", "$state", "$ionicModal", "$stateParams", "$log", "AuthenticationService"];
+    LoginController.$inject = ["$scope", "$state", "$ionicModal", "$stateParams", "$log", "$filter", "AuthenticationService"];
 
-    function LoginController($scope, $state, $ionicModal, $stateParams, $log, AuthenticationService) {
+    function LoginController($scope, $state, $ionicModal, $stateParams, $log, $filter, AuthenticationService) {
         //     // With the new view caching in Ionic, Controllers are only called
         //     // when they are recreated or on app start, instead of every page change.
         //     // To listen for when this page is active (for example, to refresh data),
@@ -19,6 +19,11 @@
 
         var vm = this;
         vm.login = login;
+
+        console.log("In LOGIN Controller");
+
+        // reset login status
+        AuthenticationService.clearCredentials();
 
         $scope.$on("$ionicView.enter", function(e) {
             // loading asynchronous modal. Using promise and then calling it
@@ -31,9 +36,6 @@
             }).then(function(modal) {
                 $scope.modal = modal;
                 $scope.modal.show();
-
-                // Reset login status
-                AuthenticationService.clearCredentials();
             });
         });
 
@@ -54,6 +56,7 @@
 
         function login() {
             vm.loading = true;
+            vm.username = $filter("lowercase")(vm.username);
             return AuthenticationService.login(vm.username, vm.password, function(callback) {
                 // On successful login
                 if (callback.success) {

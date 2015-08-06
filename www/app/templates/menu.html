@@ -3,11 +3,20 @@
         <ion-nav-bar class="bar-calm">
             <ion-nav-back-button></ion-nav-back-button>
 
-            <ion-nav-buttons side="left" ng-cloak>
+            <ion-nav-buttons side="left" >
                 <button menu-toggle="left" class="button button-icon button-clear ion-navicon"></button>
             </ion-nav-buttons>
             <ion-nav-buttons side="right">
-                <button class="button button-clear ion-person"> {{vm.user | uppercase}}</button>
+                <ul>
+                    <li class="dropdown">
+                        <button class="button button-clear ion-person"> {{vm.user | uppercase}}</button>
+                        <i class="ion-arrow-down-b"></i>
+                        <ul class="drop-nav">
+                            <li><i class="ion-power"></i> Logout</li>
+                        </ul>
+                    </li>
+
+                </ul>
             </ion-nav-buttons>
         </ion-nav-bar>
         <!-- Center content -->
@@ -27,7 +36,7 @@
                 <ion-item menu-close href="#/app/dashboard">
                     Dashboard
                 </ion-item>
-                <ion-item menu-close href="#/app/playlists">
+                <ion-item menu-close href="#/app/userlists">
                     Admin
                 </ion-item>
                 <ion-item ui-sref="login">

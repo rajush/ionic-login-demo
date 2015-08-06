@@ -1,0 +1,23 @@
+{
+    "users":[
+        {
+            "roleId": 1,
+            "role": "admin",
+            "username": "admin",
+            "password": "admin"
+        },
+        {
+            "roleId": 2,
+            "role": "manager",
+            "username": "manager",
+            "password": "manager"
+        },
+        {
+            "roleId": 3,
+            "role": "user",
+            "username": "user",
+            "password": "user"
+        }
+
+    ]
+}
