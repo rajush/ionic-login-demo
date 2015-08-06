@@ -23,14 +23,14 @@
 
         function login(username, password, callback) {
             var response = {};
+            toastr.options.positionClass = "toast-bottom-right";
 
             if (angular.isUndefined(username) && angular.isUndefined(password) || (username === "" || password === "")) {
-                toastr.options.positionClass = "toast-bottom-right";
                 toastr.warning('Username and password are requied.');
                 callback(response);
             } else {
-                /* Dummy authentication for testing, uses $timeout to simulate api call
-                 ----------------------------------------------*/
+                /* Dummy authentication for testing; uses $timeout to simulate api call
+                 ---------------------------------------------------------------------*/
                 $timeout(function() {
                     var req = {
                         method: "GET",
@@ -46,13 +46,12 @@
 
                                     // Send success callback if authorized user
                                     response.success = authorizedUser;
-                                    toastr.options.positionClass = "toast-bottom-right";
                                     toastr.success("Successfully logged in.");
                                     break;
                                 }
                             }
                             if (!authorizedUser) {
-                                toastr.options.positionClass = "toast-middle-center";
+
                                 toastr.error('Invalid username or password.');
                             }
 
